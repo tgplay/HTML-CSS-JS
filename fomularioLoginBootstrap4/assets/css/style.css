@@ -1,0 +1,34 @@
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  100vh; /*significa 100% da tela do usuario que esta axcessando*/
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.area{
+    width: 100%; /*Para quando for menor*/
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.remember{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gray{
+    color: #999;
+}
+.padding{
+    padding: 20px;
+}
+.div-input{
+    height: 100px;
+}
